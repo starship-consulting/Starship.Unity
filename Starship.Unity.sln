@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starship.Unity", "Starship.Unity.csproj", "{5A9CD19B-E7A3-48BE-B6B7-EF5C0024636B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starship.Core", "..\Starship.Core\Starship.Core.csproj", "{C44C0866-B04F-4174-8647-DB03A55C89B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starship.Unity.Plugins", "..\Starship.Unity.Plugins\Starship.Unity.Plugins.csproj", "{74448EED-27F7-4874-8027-9E54768BD94B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5A9CD19B-E7A3-48BE-B6B7-EF5C0024636B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A9CD19B-E7A3-48BE-B6B7-EF5C0024636B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A9CD19B-E7A3-48BE-B6B7-EF5C0024636B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44C0866-B04F-4174-8647-DB03A55C89B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44C0866-B04F-4174-8647-DB03A55C89B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44C0866-B04F-4174-8647-DB03A55C89B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44C0866-B04F-4174-8647-DB03A55C89B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74448EED-27F7-4874-8027-9E54768BD94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74448EED-27F7-4874-8027-9E54768BD94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74448EED-27F7-4874-8027-9E54768BD94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74448EED-27F7-4874-8027-9E54768BD94B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
