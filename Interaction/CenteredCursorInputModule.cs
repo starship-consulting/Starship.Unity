@@ -1,10 +1,9 @@
-﻿using System;
-using System.Reflection;
-using Assets.Scripts.Extensions;
+﻿using System.Reflection;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class CenteredCursorInputModule : StandaloneInputModule {
 
         protected override void Awake() {

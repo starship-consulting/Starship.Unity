@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Assets.Scripts.Editor.Extensions;
+using Starship.Unity.Editor.Extensions;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.Interfaces {
+namespace Starship.Unity.Editor.Interfaces {
     public interface IsEditor<T> where T : class {
         SerializedProperty GetProperty(Expression<Func<T, object>> field);
     }

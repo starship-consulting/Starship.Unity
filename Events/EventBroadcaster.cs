@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class EventBroadcaster : BaseComponent {
         
     }

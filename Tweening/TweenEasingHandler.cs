@@ -1,6 +1,6 @@
-﻿using System.Collections;
+﻿using UnityEngine;
 
-namespace UnityEngine.UI.Tweens
+namespace Starship.Unity.Tweening
 {
 	internal class TweenEasingHandler
 	{

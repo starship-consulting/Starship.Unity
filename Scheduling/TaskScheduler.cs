@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
 using UnityEngine;
 
-namespace Assets.Scripts.Scheduling {
+namespace Starship.Unity.Scheduling {
     public class TaskScheduler : MonoBehaviour, IsComponentObserver {
 
         public ScheduledTask Run(MonoBehaviour parent, Action action, TimeSpan delay, bool repeat = false) {

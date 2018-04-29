@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.UI.Simple;
+﻿using Starship.Unity.Core;
+using Starship.Unity.UI.Simple;
 
-namespace Assets.Scripts.UI.Layouts {
+namespace Starship.Unity.UI.Layouts {
     public class IconLayoutPresenter : BaseComponent {
         
         /*protected override void UpdateBoundState() {

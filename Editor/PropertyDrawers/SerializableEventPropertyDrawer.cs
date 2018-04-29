@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-using Assets.Scripts.Core;
+﻿using System.Linq;
+using Starship.Unity.Core;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
 
     [CustomPropertyDrawer(typeof(SerializableEvent))]
     public class SerializableEventPropertyDrawer : BasePropertyDrawer<SerializableEvent> {

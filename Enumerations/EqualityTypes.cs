@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assets.Scripts.Enumerations {
+﻿namespace Starship.Unity.Enumerations {
     public enum EqualityTypes {
         Equal = 0,
         GreaterThan,

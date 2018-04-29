@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Attributes;
-using Assets.Scripts.Models;
+using Starship.Unity.Models;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
 
     [CustomPropertyDrawer(typeof(TypeBinding))]
     public class TypeBindingPropertyDrawer : BasePropertyDrawer<TypeBinding> {

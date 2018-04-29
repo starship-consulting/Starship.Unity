@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Tables {
+namespace Starship.Unity.UI.Tables {
     public class TableCellView : MonoBehaviour {
 
         private void Awake() {

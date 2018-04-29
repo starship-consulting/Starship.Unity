@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events.Elements;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events.Elements;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Elements {
+namespace Starship.Unity.Elements {
     public class RecipeController : BaseComponent {
 
         protected override void OnEnable() {

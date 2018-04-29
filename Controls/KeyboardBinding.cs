@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.ScriptableObjects;
+using Starship.Unity.ScriptableObjects;
 using UnityEngine;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
 
     [Serializable]
     public struct KeyboardBinding {

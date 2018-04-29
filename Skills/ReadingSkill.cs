@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Skills {
+﻿namespace Starship.Unity.Skills {
     public class ReadingSkill : Skill {
     }
 }

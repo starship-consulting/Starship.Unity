@@ -1,15 +1,14 @@
 ﻿using System;
-using Assets.Scripts.Attributes;
-using Assets.Scripts.Audio;
-using Assets.Scripts.Commands;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
+using Starship.Unity.Audio;
+using Starship.Unity.Commands;
+using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Extensions;
+using Starship.Unity.Interaction;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
     
     public class Item : BaseComponent, IPointerClickHandler {
 

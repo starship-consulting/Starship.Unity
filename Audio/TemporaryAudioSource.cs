@@ -1,9 +1,9 @@
 ﻿using System.Collections;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Audio {
+namespace Starship.Unity.Audio {
     public class TemporaryAudioSource : BaseComponent {
 
         protected override void Awake() {

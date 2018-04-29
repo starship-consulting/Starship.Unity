@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Graphics {
+namespace Starship.Unity.Textures {
 
     public struct TextureBlock {
 

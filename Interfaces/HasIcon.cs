@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Interfaces {
+namespace Starship.Unity.Interfaces {
     public interface HasIcon {
         Sprite Icon { get; set; }
     }

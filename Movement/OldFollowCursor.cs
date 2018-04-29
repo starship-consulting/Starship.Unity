@@ -1,10 +1,9 @@
-﻿using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Controls;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class OldFollowCursor : BaseComponent {
         protected override void Start() {
             CharacterController = this.FindInParents<CharacterController>();

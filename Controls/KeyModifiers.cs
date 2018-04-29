@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
 
     [Flags]
     public enum KeyModifiers : uint {

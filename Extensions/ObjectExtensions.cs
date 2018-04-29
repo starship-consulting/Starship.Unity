@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Linq;
 using System.Reflection;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class ObjectExtensions {
 
         public static T ReadField<T>(this object source, string fieldName) {

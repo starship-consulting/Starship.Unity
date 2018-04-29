@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class CopyBehaviors : BaseComponent {
 
         public GameObject From;

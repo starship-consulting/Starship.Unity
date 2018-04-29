@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Models {
+namespace Starship.Unity.Models {
     public class Coordinate {
 
         public Coordinate() {

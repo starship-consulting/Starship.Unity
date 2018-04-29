@@ -1,10 +1,9 @@
-﻿using System;
-using Assets.Scripts.Databinding;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Databinding;
+using Starship.Unity.Extensions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.Editors {
+namespace Starship.Unity.Editor.Editors {
 
     [CustomEditor(typeof(Binding))]
     public class BindingEditor : BaseEditor<Binding> {

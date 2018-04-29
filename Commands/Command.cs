@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Commands {
+namespace Starship.Unity.Commands {
     public abstract class Command : BaseComponent {
         
         public virtual void Undo() {

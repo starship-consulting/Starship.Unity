@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Crafting;
-using Assets.Scripts.Interfaces;
-using Assets.Scripts.UI.Layouts;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Crafting;
+using Starship.Unity.Interfaces;
+using Starship.Unity.UI.Layouts;
 using UnityEngine;
 
-namespace Assets.Scripts.UI.Crafting {
+namespace Starship.Unity.UI.Crafting {
     public class CraftPresenter : BaseComponent, IsSelectionListener {
 
         public void OnItemSelected(MonoBehaviour source) {

@@ -1,10 +1,10 @@
 ﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Tweening;
 using UnityEngine;
-using UnityEngine.UI.Tweens;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class UIFade : BaseComponent {
 
         protected UIFade() {

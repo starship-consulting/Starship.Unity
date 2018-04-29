@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.UI;
+﻿using Starship.Unity.UI;
 
-namespace Assets.Scripts.Events.Elements {
+namespace Starship.Unity.Events.Elements {
     public class CardHovered {
         public Card Card { get; set; }
     }

@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Combat {
+namespace Starship.Unity.Combat {
     public class CombatController : BaseComponent {
         protected override void OnEnable() {
             base.OnEnable();

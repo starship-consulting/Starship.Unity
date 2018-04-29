@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Models;
-using Assets.Scripts.Spatial.TileFeatures;
+using Starship.Unity.Extensions;
+using Starship.Unity.Models;
+using Starship.Unity.Spatial.TileFeatures;
 
-namespace Assets.Scripts.Spatial.Regions {
+namespace Starship.Unity.Spatial.Regions {
 
     /// <summary>
     /// Creates a path between all entrances

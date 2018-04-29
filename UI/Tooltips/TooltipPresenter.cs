@@ -1,10 +1,9 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Definitions;
-using Assets.Scripts.Enumerations;
-using UnityEngine;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Definitions;
+using Starship.Unity.Enumerations;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Tooltips {
+namespace Starship.Unity.UI.Tooltips {
     public class TooltipPresenter : BaseComponent {
 
         protected override void OnEnable() {

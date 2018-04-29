@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Components;
-using Assets.Scripts.Core;
-using Assets.Scripts.UI.Tooltips;
+﻿using Starship.Unity.Components;
+using Starship.Unity.Core;
+using Starship.Unity.UI.Tooltips;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class PropertyPresenter : BaseComponent {
 
         public void SetProperty(CharacterProperty property, Sprite icon) {

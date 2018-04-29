@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Assets.Scripts.Conditions {
+namespace Starship.Unity.Conditions {
     public class MeshCondition : BaseComponent {
 
         protected override void Start() {

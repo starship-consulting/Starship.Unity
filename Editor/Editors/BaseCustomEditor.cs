@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Extensions;
+using Starship.Unity.Utilities;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.Editors {
+namespace Starship.Unity.Editor.Editors {
     public abstract class BaseCustomEditor<T> : ICustomEditor {
 
         public void Initialize(T model, SerializedProperty property = null) {

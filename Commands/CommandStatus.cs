@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Commands {
+namespace Starship.Unity.Commands {
     public class CommandStatus {
 
         public string Type;

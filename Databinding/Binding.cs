@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Linq;
 using System.Reflection;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using UnityEngine;
+using UnityEngine.Collections;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-using UnityEngine;
-using UnityEngine.Collections;
 
-namespace Assets.Scripts.Databinding {
+namespace Starship.Unity.Databinding {
     public class Binding : BaseComponent {
 
         /*private void Awake() {

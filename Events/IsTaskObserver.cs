@@ -1,6 +1,6 @@
 ﻿using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public interface IsTaskObserver : IEventSystemHandler {
         void OnAllTasksFinished();
     }

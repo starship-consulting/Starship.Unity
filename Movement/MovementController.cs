@@ -1,13 +1,12 @@
-﻿using System;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Animations;
-using Assets.Scripts.Computations;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Actors;
+using Starship.Unity.Animations;
+using Starship.Unity.Computations;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.Collections;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class MovementController : BaseComponent {
 
         protected override void OnEnable() {

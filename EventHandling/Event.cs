@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.EventHandling {
+﻿namespace Starship.Unity.EventHandling {
     public abstract class Event {
     }
 }

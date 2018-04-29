@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     internal static class EventInfoExtensions {
 
         public static void DisposeEvents(this object target) {

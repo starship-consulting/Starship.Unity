@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Enumerations {
+﻿namespace Starship.Unity.Enumerations {
     public enum PropertyTypes {
 
         Unknown = 0,

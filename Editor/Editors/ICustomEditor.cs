@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assets.Scripts.Editor.Editors {
+﻿namespace Starship.Unity.Editor.Editors {
     public interface ICustomEditor {
     }
 

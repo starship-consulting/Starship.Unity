@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Assets.Scripts.Events.Interaction {
+namespace Starship.Unity.Events.Interaction {
     public class RequestInteract {
         public GameObject Source;
 

@@ -1,14 +1,14 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Elements;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Elements;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Elements;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Elements;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Interaction;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class Card : BaseComponent, IPointerClickHandler, IsDragDropListener, IPointerEnterHandler, IPointerExitHandler {
         
         public void OnPointerClick(PointerEventData e) {

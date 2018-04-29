@@ -1,12 +1,10 @@
-﻿using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Movement;
+﻿using Starship.Unity.Controls;
+using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class WindowController : BaseComponent {
         
         protected override void Start() {

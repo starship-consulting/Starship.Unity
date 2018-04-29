@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Movement;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Movement;
 
-namespace Assets.Scripts.AI {
+namespace Starship.Unity.AI {
     public class SpinInPlace : BaseComponent {
 
         protected override void OnEnable() {

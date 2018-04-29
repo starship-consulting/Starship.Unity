@@ -1,9 +1,7 @@
-﻿using Assets.Scripts.Controls;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Models;
+﻿using Starship.Unity.Controls;
 using UnityEngine;
 
-namespace Assets.Scripts.EventHandling.Events {
+namespace Starship.Unity.EventHandling.Events {
     public class KeyPressed : Event {
 
         public KeyPressed() {

@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class InventoryView : MonoBehaviour {
 
         private void Start() {

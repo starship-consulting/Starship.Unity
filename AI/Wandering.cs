@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Movement;
-using Assets.Scripts.Scheduling;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Movement;
+using Starship.Unity.Scheduling;
 
-namespace Assets.Scripts.AI {
+namespace Starship.Unity.AI {
 
     public class Wandering : BaseComponent {
 

@@ -1,16 +1,15 @@
-﻿using Assets.Scripts.Actors;
-using Assets.Scripts.Computations;
-using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.Effects;
-using Assets.Scripts.EventHandling.Events;
-using Assets.Scripts.Events.Interaction;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Actors;
+using Starship.Unity.Computations;
+using Starship.Unity.Controls;
+using Starship.Unity.Core;
+using Starship.Unity.Effects;
+using Starship.Unity.EventHandling.Events;
+using Starship.Unity.Extensions;
+using Starship.Unity.Interaction;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class ClickToMove : BaseComponent {
 
         protected override void OnEnable() {

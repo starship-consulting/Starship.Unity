@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
     public class EventContainer {
 
         public EventContainer() {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class IEnumerableExtensions {
 
         public static IEnumerable<KeyValuePair<T, T>> Pairs<T>(this IEnumerable<T> collection) {

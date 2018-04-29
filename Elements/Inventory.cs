@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events.Elements;
+using Starship.Unity.Core;
+using Starship.Unity.Events.Elements;
 
-namespace Assets.Scripts.Elements {
+namespace Starship.Unity.Elements {
     public class Inventory : BaseComponent {
 
         public void Add(Element element) {

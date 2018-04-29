@@ -1,10 +1,9 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Reflection;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
 
     [CustomPropertyDrawer(typeof(SerializableObjectField))]
     public class SerializableObjectFieldPropertyDrawer : BasePropertyDrawer<SerializableObjectField> {

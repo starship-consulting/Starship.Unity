@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Models;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Models;
 
-namespace Assets.Scripts.Activities {
+namespace Starship.Unity.Activities {
     public class ActivityController : BaseComponent {
 
         public void StartActivity(string activityName) {

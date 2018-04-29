@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Animations;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interfaces;
+using Starship.Unity.Animations;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts.Traits {
+namespace Starship.Unity.Traits {
     public class Dead : BaseComponent, IsTrait {
 
         protected override void Awake() {

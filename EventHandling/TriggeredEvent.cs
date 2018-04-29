@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.ScriptableObjects;
+﻿using Starship.Unity.Core;
+using Starship.Unity.ScriptableObjects;
 
-namespace Assets.Scripts.EventHandling {
+namespace Starship.Unity.EventHandling {
     public class TriggeredEvent : BaseComponent {
 
         public GameEvent Type;

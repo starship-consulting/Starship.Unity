@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.Scripts.Definitions;
-using Assets.Scripts.Enumerations;
+using Starship.Unity.Definitions;
+using Starship.Unity.Enumerations;
 using UnityEngine;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
 
     [Serializable]
     public class CharacterProperty {

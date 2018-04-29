@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events;
+﻿using System.Collections.Generic;
+using Starship.Unity.Core;
+using Starship.Unity.Events;
 using UnityEngine;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
 
     [ExecuteInEditMode]
     public class GameController : BaseComponent {

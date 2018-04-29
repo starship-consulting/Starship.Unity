@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public static class MouseHelper {
         public static RaycastHit Raycast() {
             var position = Camera.main.ScreenPointToRay(Input.mousePosition);

@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Controls;
+﻿using Starship.Unity.Controls;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public struct HotkeyStateChanged {
         public HotkeyTypes Hotkey;
 

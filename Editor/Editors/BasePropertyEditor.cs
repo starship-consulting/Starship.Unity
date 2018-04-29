@@ -1,9 +1,4 @@
-﻿using System;
-using Assets.Scripts.Editor.Data;
-using Assets.Scripts.Editor.Interfaces;
-using UnityEngine;
-
-namespace Assets.Scripts.Editor.Editors {
+﻿namespace Starship.Unity.Editor.Editors {
     /*public abstract class BasePropertyEditor<T> : PropertyEditor<T>, IsPropertyDrawer<T> {
         
         public override T Edit(Rect region, GUIContent label, T element, fiGraphMetadata metadata) {

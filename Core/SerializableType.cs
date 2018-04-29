@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
 
     [Serializable]
     public class SerializableType {

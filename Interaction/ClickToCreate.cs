@@ -1,11 +1,11 @@
-﻿using Assets.Scripts.Audio;
-using Assets.Scripts.Commands;
-using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Audio;
+using Starship.Unity.Commands;
+using Starship.Unity.Controls;
+using Starship.Unity.Core;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class ClickToCreate : BaseComponent, IPointerDownHandler {
         public void OnPointerDown(PointerEventData e) {
             var target = Distance > 0 ? Camera.main.ScreenPointToRay(Input.mousePosition).GetPoint(Distance) : MouseHelper.Raycast().point;

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Jobs {
+namespace Starship.Unity.Jobs {
 
     [Serializable]
     public class PlaySoundJob : Job {

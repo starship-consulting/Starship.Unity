@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class SlotController : MonoBehaviour {
 
         public void SetLabel(string text) {

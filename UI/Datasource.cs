@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class Datasource : MonoBehaviour {
 
         public IEnumerable<T> GetData<T>() {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.Actors;
+using Starship.Unity.Actors;
 
-namespace Assets.Scripts.Combat {
+namespace Starship.Unity.Combat {
     [Serializable]
     public class Threat {
         public Threat() {

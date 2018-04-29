@@ -1,11 +1,10 @@
-﻿using System;
-using Assets.Scripts.Attributes;
-using Assets.Scripts.Components;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Attributes;
+using Starship.Unity.Components;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Layouts {
+namespace Starship.Unity.UI.Layouts {
 
     [Require(typeof(GridLayoutGroup))]
     [Require(typeof(ContentSizeFitter))]

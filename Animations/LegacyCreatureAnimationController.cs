@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Models;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Extensions;
+using Starship.Unity.Models;
 using UnityEngine;
 
-namespace Assets.Scripts.Animations {
+namespace Starship.Unity.Animations {
     public class LegacyCreatureAnimationController : BaseComponent, IAnimationController {
 
         protected override void Awake() {

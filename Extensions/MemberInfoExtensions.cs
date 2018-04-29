@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class MemberInfoExtensions {
         public static bool HasAttribute<T>(this MemberInfo member) where T : Attribute {
             return member.GetAttributes<T>().Any();

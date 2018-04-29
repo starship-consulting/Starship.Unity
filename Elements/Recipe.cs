@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Elements {
+namespace Starship.Unity.Elements {
     public class Recipe : Element {
         
         public void UpdateData() {

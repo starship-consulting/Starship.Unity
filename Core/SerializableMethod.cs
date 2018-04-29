@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
 
     [Serializable]
     public class SerializableMethod {

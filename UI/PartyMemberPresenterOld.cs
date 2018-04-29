@@ -1,10 +1,8 @@
-﻿using System.Linq;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events;
+﻿using Starship.Unity.Actors;
+using Starship.Unity.Core;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class PartyMemberPresenterOld : BaseComponent {
 
         public void SetCharacter(Actor character) {

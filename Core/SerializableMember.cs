@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
 
     [Serializable]
     public class SerializableMember {

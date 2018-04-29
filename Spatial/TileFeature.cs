@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Spatial {
+namespace Starship.Unity.Spatial {
 
     [Serializable]
     public class TileFeature {

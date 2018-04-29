@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.ChangeTracking {
+namespace Starship.Unity.ChangeTracking {
     public class ChangeTrackerState {
 
         public ChangeTrackerState(List<ChangeTrackerProperty> changes) {

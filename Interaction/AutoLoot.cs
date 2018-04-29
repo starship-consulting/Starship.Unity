@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Elements;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Movement;
+using Starship.Unity.Core;
+using Starship.Unity.Elements;
+using Starship.Unity.Extensions;
+using Starship.Unity.Movement;
 using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
 
     [RequireComponent(typeof(Inventory))]
     public class AutoLoot : BaseComponent {

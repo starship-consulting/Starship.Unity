@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
 
     [Serializable]
     public class SerializableEvent {

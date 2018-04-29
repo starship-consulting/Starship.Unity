@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
     public class SelectableItem : MonoBehaviour {
 
         public void Select() {

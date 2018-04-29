@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Assets.Scripts.Core;
+﻿using System.Collections.Generic;
+using Starship.Unity.Core;
 
-namespace Assets.Scripts.Databinding {
+namespace Starship.Unity.Databinding {
     public abstract class DataSource<T> : BaseComponent {
 
         public abstract List<T> GetData();

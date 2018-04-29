@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Elements;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Elements;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class AbilityPrompt : BaseComponent {
 
         protected override void Start() {

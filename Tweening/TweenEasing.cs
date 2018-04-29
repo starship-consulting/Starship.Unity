@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace UnityEngine.UI.Tweens
+﻿namespace Starship.Unity.Tweening
 {
 	public enum TweenEasing
 	{

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Assets.Scripts.Attributes;
-using Assets.Scripts.Core;
-using Assets.Scripts.Editor.Data;
-using Assets.Scripts.Editor.Extensions;
-using Assets.Scripts.Editor.PropertyDrawers;
-using Assets.Scripts.Models;
+using Starship.Unity.Attributes;
+using Starship.Unity.Core;
+using Starship.Unity.Editor.Data;
+using Starship.Unity.Editor.Extensions;
+using Starship.Unity.Editor.PropertyDrawers;
+using Starship.Unity.Models;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.Helpers {
+namespace Starship.Unity.Editor.Helpers {
     public class UIHelper<T> where T : class {
         public UIHelper(BasePropertyDrawer<T> drawer) {
             Drawer = drawer;

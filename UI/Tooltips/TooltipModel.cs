@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Enumerations;
+﻿using Starship.Unity.Enumerations;
 using UnityEngine;
 
-namespace Assets.Scripts.UI.Tooltips {
+namespace Starship.Unity.UI.Tooltips {
     public struct TooltipModel {
 
         public PropertyTypes Type { get; set; }

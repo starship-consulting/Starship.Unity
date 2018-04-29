@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Utilities {
+namespace Starship.Unity.Utilities {
     public static class Log {
 
         public static void Write(string text) {

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace Assets.Scripts.Tasks {
+namespace Starship.Unity.Tasks {
     public class Task_Invoke : TaskComponent {
         protected override void OnBegin(MonoBehaviour model) {
         }

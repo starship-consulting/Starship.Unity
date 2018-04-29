@@ -1,8 +1,4 @@
-﻿using System;
-using Assets.Scripts.Databinding;
-using UnityEditor;
-
-namespace Assets.Scripts.Editor.Editors {
+﻿namespace Starship.Unity.Editor.Editors {
 
     /*[CustomEditor(typeof(BindingContext))] 
     public class BindingContextEditor : UnityEditor.Editor {

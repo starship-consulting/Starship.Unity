@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class Delete : MonoBehaviour {
 
         public void Start() {

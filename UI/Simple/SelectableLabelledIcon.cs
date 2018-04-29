@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Simple {
+namespace Starship.Unity.UI.Simple {
     public class SelectableLabelledIcon : BaseComponent, IPointerClickHandler, CanBind<HasIcon> {
 
         public void Bind(HasIcon data) {

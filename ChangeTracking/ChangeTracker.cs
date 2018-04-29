@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Assets.Scripts.Core;
 
-namespace Assets.Scripts.ChangeTracking {
+namespace Starship.Unity.ChangeTracking {
     public class ChangeTracker {
 
         static ChangeTracker() {

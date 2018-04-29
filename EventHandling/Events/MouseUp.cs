@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Interfaces;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.EventHandling.Events {
+namespace Starship.Unity.EventHandling.Events {
     public class MouseUp : Event, IsSignal {
 
         public MouseUp() {

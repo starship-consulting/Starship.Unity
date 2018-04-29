@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Spatial {
+﻿namespace Starship.Unity.Spatial {
     public class Dungeon {
 
         public Dungeon(int size) {

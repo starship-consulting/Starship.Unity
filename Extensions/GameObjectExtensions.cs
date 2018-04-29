@@ -1,20 +1,20 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using UnityEditor;
+#endif
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Interfaces;
-using Assets.Scripts.Scheduling;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Interfaces;
+using Starship.Unity.Scheduling;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Object = UnityEngine.Object;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class GameObjectExtensions {
 
         public static bool HasComponent(this GameObject source, Type componentType) {

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Models;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Models;
 using UnityEngine;
 
-namespace Assets.Scripts.Animations {
+namespace Starship.Unity.Animations {
     public class MecanimAnimationController : BaseComponent, IAnimationController {
 
         /*public void Play(AnimationDefinition definition) {

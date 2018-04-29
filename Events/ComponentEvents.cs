@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public static class ComponentEvents<T> where T : MonoBehaviour {
 
         public static void Start(T component) {

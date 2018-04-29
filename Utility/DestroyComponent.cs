@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Attributes;
-using Assets.Scripts.Core;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Attributes;
+using Starship.Unity.Core;
+using Starship.Unity.Interaction;
+using Starship.Unity.Interfaces;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class DestroyComponent : BaseComponent, RequiresTarget {
 
         protected override void Start() {

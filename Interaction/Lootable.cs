@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Elements;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Elements;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class Lootable : BaseComponent {
 
         public Element Element;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.Utilities {
+namespace Starship.Unity.Utilities {
     public class TypeRouter {
         public TypeRouter() {
             Callbacks = new Dictionary<Type, Dictionary<Guid, MulticastDelegate>>();

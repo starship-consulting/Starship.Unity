@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public class KeyStatus {
 
         public KeyCode KeyCode { get; set; }

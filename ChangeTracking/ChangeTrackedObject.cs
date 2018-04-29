@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Linq;
 
-namespace Assets.Scripts.ChangeTracking {
+namespace Starship.Unity.ChangeTracking {
     public abstract class ChangeTrackedObject : INotifyPropertyChanged {
         protected ChangeTrackedObject() {
             Tracker = new ChangeTracker(this);

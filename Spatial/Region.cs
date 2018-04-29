@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Spatial {
+﻿namespace Starship.Unity.Spatial {
     public abstract class Region {
 
         protected Region(int width, int height) {

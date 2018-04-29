@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Spatial.Regions {
+﻿namespace Starship.Unity.Spatial.Regions {
 
     public class CircularRegion : Region {
 

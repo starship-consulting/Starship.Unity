@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Enumerations;
+using Starship.Unity.Enumerations;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
     public class DataStore {
 
         public DataStore() {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Interfaces {
+namespace Starship.Unity.Interfaces {
     public interface IsTask {
         void Begin(MonoBehaviour model);
         void Finish();

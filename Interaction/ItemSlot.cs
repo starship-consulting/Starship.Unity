@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class ItemSlot : MonoBehaviour {
 
     }

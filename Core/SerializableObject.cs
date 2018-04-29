@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
 
     [Serializable]
     public class SerializableObject {

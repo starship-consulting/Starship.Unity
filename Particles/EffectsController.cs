@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Particles {
+namespace Starship.Unity.Particles {
     public class EffectsController : BaseComponent {
     }
 }

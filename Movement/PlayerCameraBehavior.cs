@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class PlayerCameraBehavior : MonoBehaviour {
         //Mouse look and player camera.
         public Camera playerCamera;

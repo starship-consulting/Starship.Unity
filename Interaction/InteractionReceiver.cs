@@ -1,10 +1,9 @@
-﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events.Interaction;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events.Interaction;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class InteractionReceiver : BaseComponent {
 
         protected override void OnEnable() {

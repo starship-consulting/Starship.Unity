@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class AssemblyExtensions {
 
         public static IEnumerable<Type> GetTypesOf<T>(this Assembly assembly, bool includeAbstract = true) {

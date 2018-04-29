@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Entities;
-using Assets.Scripts.ScriptableObjects;
+﻿using Starship.Unity.Entities;
+using Starship.Unity.ScriptableObjects;
 using UnityEngine;
 
-namespace Assets.Scripts.Types {
+namespace Starship.Unity.Types {
 
     [CreateAssetMenu(menuName = "ScriptableObjects/GameType")]
     public class GameType : BaseScriptableObject {

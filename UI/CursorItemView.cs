@@ -1,12 +1,12 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Entities;
-using Assets.Scripts.EventHandling.Events;
-using Assets.Scripts.Events;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Entities;
+using Starship.Unity.EventHandling.Events;
+using Starship.Unity.Events;
+using Starship.Unity.Extensions;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class CursorItemView : BaseComponent {
 
         protected override void Awake() {

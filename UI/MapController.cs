@@ -1,12 +1,12 @@
 ﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Spatial;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Spatial;
+using Starship.Unity.Utilities;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class MapController : BaseComponent {
 
         protected override void Start() {

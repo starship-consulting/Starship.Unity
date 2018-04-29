@@ -1,6 +1,7 @@
 ﻿using System.Collections;
+using UnityEngine;
 
-namespace UnityEngine.UI.Tweens
+namespace Starship.Unity.Tweening
 {
 	// Tween runner, executes the given tween.
 	// The coroutine will live within the given 

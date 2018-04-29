@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.Actors;
+using Starship.Unity.Actors;
 
-namespace Assets.Scripts.Computations {
+namespace Starship.Unity.Computations {
 
     [Serializable]
     public class MathExpression {

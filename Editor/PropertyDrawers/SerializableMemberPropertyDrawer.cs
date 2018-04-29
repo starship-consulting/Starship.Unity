@@ -1,12 +1,11 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Reflection;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
 
     [CustomPropertyDrawer(typeof(SerializableMember))]
     public class SerializableMemberPropertyDrawer : BasePropertyDrawer<SerializableMember> {

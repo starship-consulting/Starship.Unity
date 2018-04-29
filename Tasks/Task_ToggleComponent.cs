@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts.Tasks {
+namespace Starship.Unity.Tasks {
     public class Task_ToggleComponent : TaskComponent {
         
         protected override void OnBegin(MonoBehaviour model) {

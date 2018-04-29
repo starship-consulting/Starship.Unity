@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Audio;
-using Assets.Scripts.Commands;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Audio;
+using Starship.Unity.Commands;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Systems {
+namespace Starship.Unity.Systems {
     public class AudioSystem : BaseComponent {
         protected override void OnEnable() {
             base.OnEnable();

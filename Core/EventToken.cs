@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.Components;
+using Starship.Unity.Components;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
     public class EventToken {
 
         internal EventToken(object partition, Type type) {

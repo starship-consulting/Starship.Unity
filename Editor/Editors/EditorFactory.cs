@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Editor.Editors {
+namespace Starship.Unity.Editor.Editors {
     public static class EditorFactory {
 
         static EditorFactory() {

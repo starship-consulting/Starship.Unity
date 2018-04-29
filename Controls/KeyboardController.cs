@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.EventHandling;
-using Assets.Scripts.EventHandling.Events;
-using Assets.Scripts.Events;
-using Assets.Scripts.Interfaces;
+using Starship.Unity.Core;
+using Starship.Unity.EventHandling;
+using Starship.Unity.EventHandling.Events;
+using Starship.Unity.Events;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Event = UnityEngine.Event;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public class KeyboardController : BaseComponent {
 
         public void OnGUI() {

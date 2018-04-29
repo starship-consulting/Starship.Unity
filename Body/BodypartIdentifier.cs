@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Body {
+namespace Starship.Unity.Body {
     public class BodypartIdentifier : BaseComponent {
 
         public string Name;

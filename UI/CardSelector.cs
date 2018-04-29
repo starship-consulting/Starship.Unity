@@ -1,16 +1,16 @@
 ﻿using System.Linq;
-using Assets.Scripts.Cameras;
-using Assets.Scripts.Core;
-using Assets.Scripts.Elements;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Elements;
-using Assets.Scripts.Events.Targetting;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Interfaces;
+using Starship.Unity.Cameras;
+using Starship.Unity.Core;
+using Starship.Unity.Elements;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Elements;
+using Starship.Unity.Events.Targetting;
+using Starship.Unity.Extensions;
+using Starship.Unity.Interaction;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
 
     [ExecuteInEditMode]
     public class CardSelector : BaseComponent, IsTrait {

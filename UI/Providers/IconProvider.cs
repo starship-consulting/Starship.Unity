@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.UI.Providers {
+﻿namespace Starship.Unity.UI.Providers {
     public interface IconProvider {
     }
 }

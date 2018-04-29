@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public abstract class DataContext<T> : BaseComponent {
 
         protected override void OnEnable() {

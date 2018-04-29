@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Assets.Scripts.Editor.Extensions;
-using Assets.Scripts.Editor.Helpers;
-using Assets.Scripts.Editor.Interfaces;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Editor.Extensions;
+using Starship.Unity.Editor.Helpers;
+using Starship.Unity.Editor.Interfaces;
+using Starship.Unity.Extensions;
+using Starship.Unity.Utilities;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
     public abstract class BasePropertyDrawer<T> : PropertyDrawer, IsEditor<T> where T : class {
         
         public T GetModel() {

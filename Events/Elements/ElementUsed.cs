@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Elements;
+﻿using Starship.Unity.Elements;
 
-namespace Assets.Scripts.Events.Elements {
+namespace Starship.Unity.Events.Elements {
     public class ElementUsed {
         public ElementUsed() {
         }

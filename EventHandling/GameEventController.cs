@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.EventHandling {
+namespace Starship.Unity.EventHandling {
     public class GameEventController : BaseComponent {
 
         protected override void OnEnable() {

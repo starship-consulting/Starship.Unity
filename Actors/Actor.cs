@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
-using Assets.Scripts.Activities;
-using Assets.Scripts.Animations;
-using Assets.Scripts.Combat;
-using Assets.Scripts.Computations;
-using Assets.Scripts.Core;
-using Assets.Scripts.Effects;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Scheduling;
+using Starship.Unity.Activities;
+using Starship.Unity.Animations;
+using Starship.Unity.Combat;
+using Starship.Unity.Computations;
+using Starship.Unity.Core;
+using Starship.Unity.Effects;
+using Starship.Unity.Extensions;
+using Starship.Unity.Scheduling;
 using UnityEngine;
 
-namespace Assets.Scripts.Actors {
+namespace Starship.Unity.Actors {
     public class Actor : BaseComponent {
         
         protected override void OnEnable() {

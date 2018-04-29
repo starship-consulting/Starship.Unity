@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class PropertyInfoExtensions {
         public static bool HasAttribute<T>(this PropertyInfo property) where T : Attribute {
             return property.GetAttributes<T>().Any();

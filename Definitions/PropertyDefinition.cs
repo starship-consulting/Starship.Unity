@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Enumerations;
+using Starship.Unity.Enumerations;
 using UnityEngine;
 
-namespace Assets.Scripts.Definitions {
+namespace Starship.Unity.Definitions {
 
     [Serializable]
     public struct PropertyDefinition {

@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.UI.Simple;
+﻿using Starship.Unity.Core;
+using Starship.Unity.UI.Simple;
 
-namespace Assets.Scripts.UI.HotkeyMenu {
+namespace Starship.Unity.UI.HotkeyMenu {
     public class HotkeyMenuPresenter : BaseComponent {
 
         /*protected override void OnEnable() {

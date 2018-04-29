@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Databinding {
+namespace Starship.Unity.Databinding {
     public class BindingContext : MonoBehaviour {
 
         public void Bind(object model) {

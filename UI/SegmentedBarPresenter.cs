@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     
     public class SegmentedBarPresenter : BaseComponent {
 

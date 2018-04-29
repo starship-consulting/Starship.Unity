@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.UI.Drag;
+﻿using Starship.Unity.UI.Drag;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Events.Models {
+namespace Starship.Unity.Events.Models {
     public struct DragResolution {
         public PointerEventData Data;
 

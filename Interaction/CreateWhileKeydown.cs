@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.EventHandling.Events;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Controls;
+using Starship.Unity.Core;
+using Starship.Unity.EventHandling.Events;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class CreateWhileKeydown : BaseComponent {
 
         protected override void OnEnable() {

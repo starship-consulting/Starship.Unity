@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class ColliderExtensions {
 
         public static void CopyTo(this Collider collider, GameObject target) {

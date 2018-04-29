@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Scheduling;
+using Starship.Unity.Scheduling;
 using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public interface IsMovementController {
 
         List<Vector3> GetValidMoves();

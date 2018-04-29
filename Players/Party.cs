@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Combat;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Targetting;
+using Starship.Unity.Combat;
+using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Targetting;
 
-namespace Assets.Scripts.Players {
+namespace Starship.Unity.Players {
     
     public class Party : BaseComponent {
         

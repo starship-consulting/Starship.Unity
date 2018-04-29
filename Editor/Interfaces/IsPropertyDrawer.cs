@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.Interfaces {
+namespace Starship.Unity.Editor.Interfaces {
     public interface IsPropertyDrawer<T> {
     }
 

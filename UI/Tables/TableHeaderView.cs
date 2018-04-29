@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.UI.Tables {
+namespace Starship.Unity.UI.Tables {
     public class TableHeaderView : TableRowView {
 
         public void Clear() {

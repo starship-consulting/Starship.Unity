@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Tables {
+namespace Starship.Unity.UI.Tables {
     public class TableRowView : MonoBehaviour {
 
         private void Awake() {

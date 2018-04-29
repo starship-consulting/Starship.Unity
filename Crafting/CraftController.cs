@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Interfaces;
-using Assets.Scripts.UI;
+using Starship.Unity.Core;
+using Starship.Unity.Interfaces;
+using Starship.Unity.UI;
 
-namespace Assets.Scripts.Crafting {
+namespace Starship.Unity.Crafting {
     
     public class CraftController : BaseComponent {
 

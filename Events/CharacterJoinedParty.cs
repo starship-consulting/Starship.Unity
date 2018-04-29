@@ -1,8 +1,6 @@
-﻿using System;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Components;
+﻿using Starship.Unity.Actors;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class CharacterJoinedParty {
 
         public CharacterJoinedParty() {

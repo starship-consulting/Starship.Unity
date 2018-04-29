@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
 
     [Serializable]
     public class HotkeyBinding {

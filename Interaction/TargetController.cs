@@ -1,11 +1,11 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.EventHandling.Events;
-using Assets.Scripts.Events.Targetting;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Core;
+using Starship.Unity.EventHandling.Events;
+using Starship.Unity.Events.Targetting;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class TargetController : BaseComponent, HasContext {
         protected override void OnEnable() {
             base.OnEnable();

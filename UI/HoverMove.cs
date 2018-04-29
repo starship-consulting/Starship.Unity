@@ -1,10 +1,10 @@
 ﻿using System;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
+using Starship.Unity.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI.Tweens;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class HoverMove : BaseComponent, IPointerEnterHandler, IPointerExitHandler {
 
         protected HoverMove() {

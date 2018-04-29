@@ -93,7 +93,6 @@
     <Compile Include="Components\EntityController.cs" />
     <Compile Include="Components\EntitySpawner.cs" />
     <Compile Include="Components\GameController.cs" />
-    <Compile Include="Components\RandomDungeonGenerator.cs" />
     <Compile Include="Components\SelectableItem.cs" />
     <Compile Include="Components\ThreatSensor.cs" />
     <Compile Include="Computations\Algorithm.cs" />
@@ -173,7 +172,6 @@
     <Compile Include="Editor\PropertyDrawers\TypePropertyDrawer.cs" />
     <Compile Include="Effects\Effect.cs" />
     <Compile Include="Effects\EffectsController.cs" />
-    <Compile Include="Effects\HighlightOccluder.cs" />
     <Compile Include="Elements\AbilityFilter.cs" />
     <Compile Include="Elements\CurrentTargetAbilityFilter.cs" />
     <Compile Include="Elements\Element.cs" />
@@ -273,7 +271,7 @@
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Extensions\TextureExtensions.cs" />
     <Compile Include="Extensions\TypeExtensions.cs" />
-    <Compile Include="Graphics\TextureBlock.cs" />
+    <Compile Include="Textures\TextureBlock.cs" />
     <Compile Include="Interaction\AbilityPrompt.cs" />
     <Compile Include="Interaction\ApplyForce.cs" />
     <Compile Include="Interaction\AutoLoot.cs" />
@@ -360,7 +358,6 @@
     <Compile Include="Spatial\TileFeatures\DungeonWallFeature.cs" />
     <Compile Include="Systems\AudioSystem.cs" />
     <Compile Include="Systems\CameraSystem.cs" />
-    <Compile Include="Systems\GraphicSystem.cs" />
     <Compile Include="Systems\InteractionSystem.cs" />
     <Compile Include="Tasks\ConditionComponent.cs" />
     <Compile Include="Tasks\EmptyTask.cs" />
@@ -399,7 +396,6 @@
     <Compile Include="UI\Drag\Dragging.cs" />
     <Compile Include="UI\EntityLabel.cs" />
     <Compile Include="UI\EventHelpers\ClickBubbler.cs" />
-    <Compile Include="UI\FloatingText.cs" />
     <Compile Include="UI\HotbarController.cs" />
     <Compile Include="UI\HotkeyMenu\HotkeyMenuItem.cs" />
     <Compile Include="UI\HotkeyMenu\HotkeyMenuPresenter.cs" />
@@ -465,10 +461,6 @@
     <ProjectReference Include="..\Starship.Core\Starship.Core.csproj">
       <Project>{c44c0866-b04f-4174-8647-db03a55c89b6}</Project>
       <Name>Starship.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Starship.Unity.Plugins\Starship.Unity.Plugins.csproj">
-      <Project>{74448eed-27f7-4874-8027-9e54768bd94b}</Project>
-      <Name>Starship.Unity.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

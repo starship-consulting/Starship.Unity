@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
 
     public static class StringExtensions {
 

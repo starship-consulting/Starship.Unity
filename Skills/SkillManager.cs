@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Skills {
+namespace Starship.Unity.Skills {
     
     [Serializable]
     public class SkillManager : ScriptableObject {

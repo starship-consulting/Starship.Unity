@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Assets.Scripts.Spatial {
+namespace Starship.Unity.Spatial {
     public class Tile {
 
         public Tile(params TileFeature[] features) {

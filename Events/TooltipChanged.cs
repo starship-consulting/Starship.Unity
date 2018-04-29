@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine.UI;
+﻿using UnityEngine.UI;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class TooltipChanged {
 
         public Image Icon;

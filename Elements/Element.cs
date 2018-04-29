@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Interfaces;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Interaction;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts.Elements {
+namespace Starship.Unity.Elements {
     public class Element : BaseComponent {
         
         public virtual GameObject CreateTemplate() {

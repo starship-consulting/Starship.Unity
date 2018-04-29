@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Audio;
-using Assets.Scripts.Commands;
+﻿using Starship.Unity.Audio;
+using Starship.Unity.Commands;
 using UnityEngine;
 
-namespace Assets.Scripts.Tasks {
+namespace Starship.Unity.Tasks {
     public class Task_PlaySound : TaskComponent {
 
         protected override void OnBegin(MonoBehaviour model) {

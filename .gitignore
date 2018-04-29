@@ -4,6 +4,7 @@
 ExportedObj/
 .vs/
 obj/
+bin/
 *.svd
 *.userprefs
 *.pidb

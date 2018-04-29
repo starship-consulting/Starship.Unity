@@ -1,6 +1,6 @@
 ﻿using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Tables {
+namespace Starship.Unity.UI.Tables {
     public class TableInputCellView : TableCellView {
 
         private void Awake() {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Entities;
+using Starship.Unity.Entities;
 using UnityEngine;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
     public class EntityController : MonoBehaviour {
 
         private void Awake() {

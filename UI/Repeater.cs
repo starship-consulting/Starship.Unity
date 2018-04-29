@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     
     public class Repeater : BaseComponent {
 

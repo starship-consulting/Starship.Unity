@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Skills {
+namespace Starship.Unity.Skills {
 
     [Serializable]
     public class SkillPerk {

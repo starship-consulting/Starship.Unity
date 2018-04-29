@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Jobs {
+namespace Starship.Unity.Jobs {
 
     [Serializable]
     public abstract class Job {

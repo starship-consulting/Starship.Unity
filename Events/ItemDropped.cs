@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.Entities;
+﻿using Starship.Unity.Entities;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class ItemDropped {
         public ItemDropped() {
         }

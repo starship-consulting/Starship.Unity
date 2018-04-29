@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Attributes;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events.UI;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Attributes;
+using Starship.Unity.Core;
+using Starship.Unity.Events.UI;
+using Starship.Unity.Interfaces;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.UI.Drag {
+namespace Starship.Unity.UI.Drag {
     public class DragDropReceiver : BaseComponent, IDragHandler, IPointerEnterHandler, IPointerExitHandler {
 
         public void OnDrag(PointerEventData e) {

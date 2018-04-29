@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Interfaces;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts.Crafting {
+namespace Starship.Unity.Crafting {
     
     [Serializable]
     public class Craft : ScriptableObject, HasIcon {

@@ -1,10 +1,9 @@
-﻿using Assets.Scripts.Controls;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Controls;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.EventHandling.Events {
+namespace Starship.Unity.EventHandling.Events {
     public class MouseDown : Event, IsSignal {
 
         public MouseDown() {

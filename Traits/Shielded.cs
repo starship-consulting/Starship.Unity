@@ -1,15 +1,15 @@
 ﻿using System;
-using Assets.Scripts.Animations;
-using Assets.Scripts.Audio;
-using Assets.Scripts.Commands;
-using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events.Combat;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Interfaces;
+using Starship.Unity.Animations;
+using Starship.Unity.Audio;
+using Starship.Unity.Commands;
+using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events.Combat;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Interfaces;
 using Random = UnityEngine.Random;
 
-namespace Assets.Scripts.Traits {
+namespace Starship.Unity.Traits {
     public class Shielded : BaseComponent, CanMitigateDamage, IsTrait {
 
         protected override void Start() {

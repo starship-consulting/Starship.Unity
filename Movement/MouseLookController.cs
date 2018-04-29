@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events.Interaction;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
+using Starship.Unity.Actors;
+using Starship.Unity.Controls;
+using Starship.Unity.Core;
+using Starship.Unity.Events.Interaction;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class MouseLookController : BaseComponent {
 
         protected override void Start() {

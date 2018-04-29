@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Interaction;
+using Starship.Unity.Interaction;
 
-namespace Assets.Scripts.Elements {
+namespace Starship.Unity.Elements {
     public class CurrentTargetAbilityFilter : AbilityFilter {
         public CurrentTargetAbilityFilter(Targettable target) {
             Target = target;

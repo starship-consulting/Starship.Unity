@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Events.Models;
+﻿using Starship.Unity.Events.Models;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public interface IsDragDropListener : IEventSystemHandler {
         void OnDropped(DragResolution drag);
     }

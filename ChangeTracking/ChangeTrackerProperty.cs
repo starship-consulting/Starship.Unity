@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Assets.Scripts.ChangeTracking {
+namespace Starship.Unity.ChangeTracking {
     public class ChangeTrackerProperty {
 
         public ChangeTrackerProperty(PropertyInfo property) {

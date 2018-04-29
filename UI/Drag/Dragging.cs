@@ -1,11 +1,11 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events.UI;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events.UI;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Drag {
+namespace Starship.Unity.UI.Drag {
     public class Dragging : BaseComponent, IDragHandler {
 
         protected override void OnEnable() {

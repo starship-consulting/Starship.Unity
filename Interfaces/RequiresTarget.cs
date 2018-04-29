@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Interaction;
 
-namespace Assets.Scripts.Interfaces {
+namespace Starship.Unity.Interfaces {
     public interface RequiresTarget {
         bool IsValidTarget(Targettable target);
     }

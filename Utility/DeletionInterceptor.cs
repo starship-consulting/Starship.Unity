@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Interfaces;
 using UnityEngine.Events;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class DeletionInterceptor : BaseComponent, IsDeletable {
 
         public new void Delete() {

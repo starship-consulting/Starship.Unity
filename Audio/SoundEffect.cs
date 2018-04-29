@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Audio {
+namespace Starship.Unity.Audio {
     public class SoundEffect : BaseComponent {
 
         //public AudioClip Clip;

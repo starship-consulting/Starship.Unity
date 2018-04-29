@@ -1,10 +1,9 @@
-﻿using System;
-using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Models;
+﻿using System.Linq;
+using Starship.Unity.Core;
+using Starship.Unity.Models;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
 
     [CustomPropertyDrawer(typeof(BehaviourBinding))]
     public class BehaviourBindingPropertyDrawer : BasePropertyDrawer<BehaviourBinding> {

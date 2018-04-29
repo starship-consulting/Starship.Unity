@@ -1,11 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using Assets.Scripts.Attributes;
-using Assets.Scripts.Extensions;
+﻿using System.Linq;
+using Starship.Unity.Attributes;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Utilities {
+namespace Starship.Unity.Utilities {
     public static class Automapper {
 
         public static void AutomapRequiredComponents(MonoBehaviour behavior) {

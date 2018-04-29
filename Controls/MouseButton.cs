@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.Scripts.Components;
-using Assets.Scripts.Entities;
-using Assets.Scripts.Enumerations;
+using Starship.Unity.Components;
+using Starship.Unity.Entities;
+using Starship.Unity.Enumerations;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public class MouseButton : Entity {
 
         public MouseButton() {

@@ -1,20 +1,19 @@
-﻿using Assets.Scripts.Actors;
-using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Combat;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Movement;
-using Assets.Scripts.UI;
+﻿using Starship.Unity.Actors;
+using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Combat;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Movement;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Combat {
+namespace Starship.Unity.Combat {
     public class Attackable : BaseComponent, IPointerClickHandler {
 
         protected override void Start() {
             base.Start();
-            FloatingText = GetComponentInChildren<FloatingText>();
+            //FloatingText = GetComponentInChildren<FloatingText>();
         }
 
         public void OnPointerClick(PointerEventData e) {
@@ -62,6 +61,6 @@ namespace Assets.Scripts.Combat {
         
         public GameObject AttackEffect;
 
-        private FloatingText FloatingText { get; set; }
+        //private FloatingText FloatingText { get; set; }
     }
 }

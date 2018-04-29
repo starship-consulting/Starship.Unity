@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
 using UnityEngine.Events;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public class HotkeyListener : BaseComponent {
 
         protected override void OnEnable() {

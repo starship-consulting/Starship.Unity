@@ -1,9 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Components;
-using Assets.Scripts.Models;
+using Starship.Unity.Actors;
+using Starship.Unity.Models;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
 
     [Serializable]
     public struct ActorStateEnded {

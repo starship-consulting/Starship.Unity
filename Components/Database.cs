@@ -2,11 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Entities;
-using Assets.Scripts.Enumerations;
+using Starship.Unity.Core;
+using Starship.Unity.Entities;
+using Starship.Unity.Enumerations;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
     public static class Database {
         static Database() {
             Stores = new Dictionary<Type, DataStore>();

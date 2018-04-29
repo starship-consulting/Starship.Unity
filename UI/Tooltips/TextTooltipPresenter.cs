@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Targetting;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Targetting;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Tooltips {
+namespace Starship.Unity.UI.Tooltips {
     public class TextTooltipPresenter : BaseComponent {
 
         protected override void Awake() {

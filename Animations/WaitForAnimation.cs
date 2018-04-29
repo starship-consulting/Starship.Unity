@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Animations {
+namespace Starship.Unity.Animations {
     public sealed class WaitForAnimation : CustomYieldInstruction {
         private readonly Animator animator;
         private float innerTime = -1;

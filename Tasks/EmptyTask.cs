@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Tasks {
+namespace Starship.Unity.Tasks {
 
     [Serializable]
     public class EmptyTask : Task {

@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Animations {
+namespace Starship.Unity.Animations {
     public class ClickToMoveCharacterAnimator : BaseComponent {
         public void Hit() {
         }

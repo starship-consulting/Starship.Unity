@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.UI.Drag;
+﻿using Starship.Unity.UI.Drag;
 using UnityEngine;
 
-namespace Assets.Scripts.Events.UI {
+namespace Starship.Unity.Events.UI {
     public class Dropped {
         public Draggable Source { get; set; }
 

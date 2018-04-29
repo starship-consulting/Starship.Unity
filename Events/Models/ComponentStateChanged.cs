@@ -1,9 +1,8 @@
-﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
 using UnityEngine;
 
-namespace Assets.Scripts.Events.Models {
+namespace Starship.Unity.Events.Models {
     public class ComponentStateChanged {
 
         public ComponentStateChanged() {

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Models {
+namespace Starship.Unity.Models {
     
     [Serializable]
     public class ActorState {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Spatial {
+namespace Starship.Unity.Spatial {
     public class GeneratorContext {
         public GeneratorContext(int seed) {
             Random = new Random(seed);

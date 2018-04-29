@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Interfaces {
+namespace Starship.Unity.Interfaces {
     
     public interface HasContext {
         GameObject GetContext();

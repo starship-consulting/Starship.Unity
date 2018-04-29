@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Players;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Extensions;
+using Starship.Unity.Players;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     //[ExecuteInEditMode]
     public class PartyPresenter : BaseComponent {
         //protected void Awake() {

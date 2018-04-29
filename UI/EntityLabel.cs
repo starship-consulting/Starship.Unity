@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class EntityLabel : BaseComponent {
 
         protected override void OnEnable() {

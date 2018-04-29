@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.ScriptableObjects;
+﻿using Starship.Unity.ScriptableObjects;
 
-namespace Assets.Scripts.EventHandling {
+namespace Starship.Unity.EventHandling {
     public struct GameEventFired {
         public GameEvent Event;
     }

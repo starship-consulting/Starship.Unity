@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 
-namespace Assets.Scripts.Tasks {
+namespace Starship.Unity.Tasks {
     public abstract class ConditionComponent : BaseComponent {
 
         //public void Hook() {

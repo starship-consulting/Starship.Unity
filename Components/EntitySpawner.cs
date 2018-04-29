@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Entities;
+using Starship.Unity.Core;
+using Starship.Unity.Entities;
 using UnityEngine;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
     public class EntitySpawner : BaseComponent {
 
         protected override void Start() {

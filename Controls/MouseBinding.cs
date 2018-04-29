@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.ScriptableObjects;
+using Starship.Unity.Enumerations;
+using Starship.Unity.ScriptableObjects;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
 
     [Serializable]
     public class MouseBinding {

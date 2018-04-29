@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
     public class Entity : BaseComponent {
         
         protected override void Awake() {

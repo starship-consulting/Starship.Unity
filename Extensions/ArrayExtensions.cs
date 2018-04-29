@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class ArrayExtensions {
 
         public static IEnumerable<T> Randomize<T>(this IEnumerable<T> sequence, Random random) {

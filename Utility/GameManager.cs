@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
 using UnityEngine;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class GameManager : BaseComponent {
 
 #if UNITY_EDITOR

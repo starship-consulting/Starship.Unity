@@ -1,9 +1,8 @@
-﻿using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Controls;
+using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class RigidBodyChaseCursor : BaseComponent {
 
         protected override void OnEnable() {

@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Audio;
+﻿using Starship.Unity.Audio;
 using UnityEngine;
 
-namespace Assets.Scripts.Commands {
+namespace Starship.Unity.Commands {
     public class PlaySound {
         public PlaySound() {
         }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
   [System.Serializable]
   public class FootstepType {
     public string tagName = "New Footstep Type";

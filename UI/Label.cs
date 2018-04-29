@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class Label : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
 
         public void OnPointerEnter(PointerEventData e) {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class ImageHoverFade : BaseComponent, IPointerEnterHandler, IPointerExitHandler {
 
         public void OnPointerEnter(PointerEventData e) {

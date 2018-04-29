@@ -1,16 +1,13 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.EventHandling;
-using Assets.Scripts.EventHandling.Events;
-using Assets.Scripts.Events.Interaction;
-using Assets.Scripts.Events.Targetting;
-using Assets.Scripts.Interaction;
-using Assets.Scripts.Models;
+using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
+using Starship.Unity.EventHandling;
+using Starship.Unity.EventHandling.Events;
+using Starship.Unity.Events.Interaction;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public class MouseController : BaseComponent {
 
         static MouseController() {

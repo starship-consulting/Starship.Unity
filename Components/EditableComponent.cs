@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
     public abstract class EditableComponent : BaseComponent {
 
         protected override void Start() {

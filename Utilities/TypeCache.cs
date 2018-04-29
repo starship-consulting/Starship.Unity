@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using UnityEngine;
 
-namespace Assets.Scripts.Utilities {
+namespace Starship.Unity.Utilities {
     public static class TypeCache {
 
         static TypeCache() {

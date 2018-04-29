@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.Actors;
+﻿using Starship.Unity.Actors;
 using UnityEngine;
 
-namespace Assets.Scripts.Computations {
+namespace Starship.Unity.Computations {
 
     [CreateAssetMenu(menuName = "ScriptableObjects/Algorithm")]
     public class Algorithm : ScriptableObject {

@@ -1,13 +1,4 @@
-﻿using System;
-using Assets.Scripts.Components;
-using Assets.Scripts.Core;
-using Assets.Scripts.Entities;
-using Assets.Scripts.UI.Tables;
-using Assets.Scripts.Utilities;
-using UnityEngine;
-using UnityEngine.UI;
-
-namespace Assets.Scripts.UI {
+﻿namespace Starship.Unity.UI {
     /*public class DataView : MonoBehaviour {
 
         private void Awake() {

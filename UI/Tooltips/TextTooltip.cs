@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.UI.Tooltips {
+namespace Starship.Unity.UI.Tooltips {
     public class TextTooltip : BaseComponent, IPointerEnterHandler, IPointerExitHandler {
 
         public void OnPointerEnter(PointerEventData e) {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Scheduling {
+namespace Starship.Unity.Scheduling {
     public interface IsContinuable {
         Promise Then(Action action);
     }

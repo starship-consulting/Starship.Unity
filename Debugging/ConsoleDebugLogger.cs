@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Utilities;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Utilities;
 using UnityEngine;
 
-namespace Assets.Scripts.Debugging {
+namespace Starship.Unity.Debugging {
     public class ConsoleDebugLogger : BaseComponent {
         protected override void Start() {
             base.Start();

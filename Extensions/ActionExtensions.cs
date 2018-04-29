@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assets.Scripts.Extensions {
+﻿namespace Starship.Unity.Extensions {
     public static class ActionExtensions {
 
     }

@@ -1,6 +1,4 @@
-﻿using Assets.Scripts.Core;
-
-namespace Assets.Scripts.Editor.Editors {
+﻿namespace Starship.Unity.Editor.Editors {
 
     /*public class SerializableObjectMethodEditor : BaseCustomEditor<SerializableObjectMethod> {
 

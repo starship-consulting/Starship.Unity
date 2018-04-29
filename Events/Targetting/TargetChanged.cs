@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Interaction;
 
-namespace Assets.Scripts.Events.Targetting {
+namespace Starship.Unity.Events.Targetting {
     public class TargetChanged {
         public TargetChanged() {
         }

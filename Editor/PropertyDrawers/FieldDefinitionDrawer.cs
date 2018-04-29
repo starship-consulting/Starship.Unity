@@ -1,9 +1,7 @@
-﻿using System;
-using Assets.Scripts.Models;
-using Assets.Scripts.ScriptableObjects;
+﻿using Starship.Unity.Models;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.PropertyDrawers {
+namespace Starship.Unity.Editor.PropertyDrawers {
 
     [CustomPropertyDrawer(typeof(FieldDefinition))]
     public class FieldDefinitionDrawer : BasePropertyDrawer<FieldDefinition> {

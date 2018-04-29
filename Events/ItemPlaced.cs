@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.Entities;
-using Assets.Scripts.UI;
+﻿using Starship.Unity.Entities;
+using Starship.Unity.UI;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class ItemPlaced {
         public ItemPlaced() {
         }

@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class DestroyParent : BaseComponent {
 
         protected override void Start() {

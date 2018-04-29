@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Scheduling;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Extensions;
+using Starship.Unity.Scheduling;
+using Starship.Unity.Utilities;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Component = UnityEngine.Component;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
     
     public abstract class BaseComponent : MonoBehaviour {
 

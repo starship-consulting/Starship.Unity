@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Spatial.TileFeatures;
+﻿using Starship.Unity.Spatial.TileFeatures;
 
-namespace Assets.Scripts.Spatial.Regions {
+namespace Starship.Unity.Spatial.Regions {
     public class RoomRegion : Region {
 
         public RoomRegion(int width, int height)

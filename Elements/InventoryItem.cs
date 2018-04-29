@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Elements {
+namespace Starship.Unity.Elements {
 
     [Serializable]
     public class InventoryItem {

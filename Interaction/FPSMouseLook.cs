@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
 using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class FPSMouseLook : BaseComponent {
 
         protected override void Start() {

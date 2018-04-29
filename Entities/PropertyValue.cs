@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
     
     [Serializable]
     public class PropertyValue {

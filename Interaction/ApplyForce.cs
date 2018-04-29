@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class ApplyForce : BaseComponent {
         
         protected override void Start() {

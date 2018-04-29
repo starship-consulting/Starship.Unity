@@ -1,12 +1,12 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Tasks {
+namespace Starship.Unity.Tasks {
     public abstract class TaskComponent : BaseComponent, IsTask {
 
         public T GetModel<T>() {

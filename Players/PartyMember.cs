@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Players {
+namespace Starship.Unity.Players {
 
     [Serializable]
     public class PartyMember {

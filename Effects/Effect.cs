@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Effects {
+namespace Starship.Unity.Effects {
     public class Effect : BaseComponent {
 
         public string Name;

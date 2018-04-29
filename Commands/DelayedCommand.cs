@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.Commands {
+namespace Starship.Unity.Commands {
     public class DelayedCommand : Command {
 
         protected override void Start() {

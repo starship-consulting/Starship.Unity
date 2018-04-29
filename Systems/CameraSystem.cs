@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Systems {
+namespace Starship.Unity.Systems {
     public class CameraSystem : BaseComponent {
 
         protected override void Awake() {

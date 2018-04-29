@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
+using Starship.Unity.Core;
+using Starship.Unity.Enumerations;
 
-namespace Assets.Scripts.Scheduling {
+namespace Starship.Unity.Scheduling {
     public class Promise : IsContinuable {
         public Promise() {
         }

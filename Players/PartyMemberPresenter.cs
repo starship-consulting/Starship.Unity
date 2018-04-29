@@ -1,9 +1,9 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.UI;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.UI;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.Players {
+namespace Starship.Unity.Players {
     public class PartyMemberPresenter : BaseComponent {
 
         protected override void Start() {

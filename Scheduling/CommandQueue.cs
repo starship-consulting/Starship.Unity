@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.Scheduling {
+namespace Starship.Unity.Scheduling {
     public class CommandQueue {
 
         public CommandQueue(int maxCommands = 0, bool runConcurrently = false) {

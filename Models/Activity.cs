@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Models {
+namespace Starship.Unity.Models {
 
     [Serializable]
     public class Activity {

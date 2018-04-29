@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.Spatial;
+using Starship.Unity.Spatial;
 using UnityEngine;
 
-namespace Assets.Scripts.Managers {
+namespace Starship.Unity.Managers {
 
     [Serializable]
     public class TilesetManager : ScriptableObject {

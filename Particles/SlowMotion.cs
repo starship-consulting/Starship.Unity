@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Particles {
+namespace Starship.Unity.Particles {
     public class SlowMotion : BaseComponent {
 
         protected override void Start() {

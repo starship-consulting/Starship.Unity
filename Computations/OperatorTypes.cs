@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assets.Scripts.Computations {
+﻿namespace Starship.Unity.Computations {
     public enum OperatorTypes {
         Constant = 0,
         Add,

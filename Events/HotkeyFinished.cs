@@ -1,8 +1,6 @@
-﻿using System;
-using Assets.Scripts.Controls;
-using Assets.Scripts.Enumerations;
+﻿using Starship.Unity.Controls;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class HotkeyFinished {
         public HotkeyFinished() {
         }

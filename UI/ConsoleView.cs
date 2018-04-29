@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Utilities;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class ConsoleView : MonoBehaviour {
 
         private void Awake() {

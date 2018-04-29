@@ -1,9 +1,7 @@
-﻿using System;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Components;
-using Assets.Scripts.Enumerations;
+﻿using Starship.Unity.Actors;
+using Starship.Unity.Enumerations;
 
-namespace Assets.Scripts.Events.Models {
+namespace Starship.Unity.Events.Models {
     public class Damage {
 
         public Damage() {

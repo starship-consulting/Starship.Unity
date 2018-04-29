@@ -1,15 +1,11 @@
-﻿using System;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Animations;
-using Assets.Scripts.Commands;
-using Assets.Scripts.Components;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Movement;
+﻿using Starship.Unity.Actors;
+using Starship.Unity.Animations;
+using Starship.Unity.Commands;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Movement;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
     public class Creature : Actor, IsComponentObserver {
 
         protected override void Awake() {

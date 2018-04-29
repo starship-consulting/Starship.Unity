@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Elements;
+﻿using Starship.Unity.Elements;
 using UnityEngine;
 
-namespace Assets.Scripts.Crafting {
+namespace Starship.Unity.Crafting {
     public class CraftComponent : ScriptableObject {
 
         public string Name;

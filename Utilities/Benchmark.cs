@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Utilities {
+namespace Starship.Unity.Utilities {
     public class Benchmark : IDisposable {
         public Benchmark(string message) {
             StartTime = DateTime.Now;

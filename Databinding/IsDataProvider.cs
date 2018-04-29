@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.UI;
+﻿using Starship.Unity.UI;
 
-namespace Assets.Scripts.Databinding {
+namespace Starship.Unity.Databinding {
     public interface IsDataProvider<T> {
         void Fill(DataContext<T> context);
     }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Utilities {
+namespace Starship.Unity.Utilities {
     public class Disposer : IDisposable {
 
         public Disposer(Action startAction, Action endAction) {

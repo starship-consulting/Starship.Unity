@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class Toggleable : MonoBehaviour {
 
         private void Start() {

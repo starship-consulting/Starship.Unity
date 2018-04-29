@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Interfaces;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts.UI.Selection {
+namespace Starship.Unity.UI.Selection {
     public class ItemSelectionHandler : BaseComponent, IsSelectionListener {
 
         public void OnItemSelected(MonoBehaviour source) {

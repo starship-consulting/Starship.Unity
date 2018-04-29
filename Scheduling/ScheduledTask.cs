@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.Scheduling {
+namespace Starship.Unity.Scheduling {
     public class ScheduledTask {
 
         public ScheduledTask() {

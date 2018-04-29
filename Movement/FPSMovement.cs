@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class FPSMovement : BaseComponent {
 
     }

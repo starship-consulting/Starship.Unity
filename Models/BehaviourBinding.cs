@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.Models {
+namespace Starship.Unity.Models {
 
     [Serializable]
     public class BehaviourBinding {

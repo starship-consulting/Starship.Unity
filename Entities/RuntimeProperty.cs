@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
 
     [Serializable]
     public class RuntimeProperty {

@@ -1,12 +1,12 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Events.UI;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Events.UI;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.UI.Drag {
+namespace Starship.Unity.UI.Drag {
     public class Draggable : BaseComponent, IBeginDragHandler, IEndDragHandler, IDragHandler {
 
         public void OnBeginDrag(PointerEventData e) {

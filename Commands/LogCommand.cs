@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Utilities;
+﻿using Starship.Unity.Utilities;
 
-namespace Assets.Scripts.Commands {
+namespace Starship.Unity.Commands {
     public class LogCommand : Command {
 
         protected override void Start() {

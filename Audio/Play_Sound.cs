@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Commands;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Commands;
+using Starship.Unity.Core;
 
-namespace Assets.Scripts.Audio {
+namespace Starship.Unity.Audio {
     public class Play_Sound : BaseComponent {
 
         protected override void Start() {

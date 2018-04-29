@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Reflection;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Utilities;
 
-namespace Assets.Scripts.Models {
+namespace Starship.Unity.Models {
 
     [Serializable]
     public class TypeBinding {

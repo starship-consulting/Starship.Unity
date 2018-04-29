@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Scripts.Audio;
-using Assets.Scripts.Commands;
-using Assets.Scripts.Controls;
-using Assets.Scripts.Core;
-using Assets.Scripts.Debugging;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Scheduling;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Audio;
+using Starship.Unity.Commands;
+using Starship.Unity.Controls;
+using Starship.Unity.Core;
+using Starship.Unity.Debugging;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Events;
+using Starship.Unity.Extensions;
+using Starship.Unity.Scheduling;
+using Starship.Unity.Utilities;
 using UnityEngine;
 
-namespace Assets.Scripts.Movement {
+namespace Starship.Unity.Movement {
     public class GridMovement : BaseComponent, IsMovementController {
 
         protected override void OnEnable() {

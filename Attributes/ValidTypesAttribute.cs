@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Attributes {
+namespace Starship.Unity.Attributes {
     public class ValidTypesAttribute : Attribute {
         public ValidTypesAttribute() {
         }

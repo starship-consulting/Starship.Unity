@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class ExpressionExtensions {
 
         public static M ToModel<T, M>(this Expression<Func<T, M>> expression, T context) {

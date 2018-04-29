@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assets.Scripts.Events {
+﻿namespace Starship.Unity.Events {
     public struct PauseStateChanged {
         public bool IsPaused { get; set; }
     }

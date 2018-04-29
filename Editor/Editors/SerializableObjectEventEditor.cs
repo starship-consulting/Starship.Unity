@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
+﻿using Starship.Unity.Core;
 using UnityEditor;
 
-namespace Assets.Scripts.Editor.Editors {
+namespace Starship.Unity.Editor.Editors {
 
     public class SerializableObjectEventEditor : BaseCustomEditor<SerializableObjectEvent> {
 

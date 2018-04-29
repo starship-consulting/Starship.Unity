@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Linq.Expressions;
-using Assets.Scripts.Editor.Extensions;
-using Assets.Scripts.Editor.Interfaces;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Editor.Extensions;
+using Starship.Unity.Editor.Interfaces;
+using Starship.Unity.Extensions;
+using Starship.Unity.Utilities;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.Editors {
+namespace Starship.Unity.Editor.Editors {
     public abstract class BaseEditor<T> : UnityEditor.Editor, IsEditor<T> where T : class {
         public BaseEditor() {
         }

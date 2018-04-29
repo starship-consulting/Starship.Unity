@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Debugging {
+namespace Starship.Unity.Debugging {
     public class DrawDebugRay : MonoBehaviour {
 
         public void Update() {

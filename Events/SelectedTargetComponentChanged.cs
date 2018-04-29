@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Interaction;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class SelectedTargetComponentChanged {
         public Targettable Target { get; set; }
     }

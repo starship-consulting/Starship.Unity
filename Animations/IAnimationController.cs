@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Models;
+﻿using Starship.Unity.Models;
 
-namespace Assets.Scripts.Animations {
+namespace Starship.Unity.Animations {
     public interface IAnimationController {
         void Play(AnimationDefinition definition);
         void Stop();

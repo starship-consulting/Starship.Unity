@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI.Tables {
+namespace Starship.Unity.UI.Tables {
     public class TableView : MonoBehaviour {
 
         private void Awake() {

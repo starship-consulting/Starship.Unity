@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
-using Assets.Scripts.Interaction;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
+using Starship.Unity.Interaction;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.Cameras {
+namespace Starship.Unity.Cameras {
     public class PreviewCamera : BaseComponent {
 
         protected override void Awake() {

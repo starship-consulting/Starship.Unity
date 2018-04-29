@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.Utilities;
+using Starship.Unity.Utilities;
 
-namespace Assets.Scripts.Core {
+namespace Starship.Unity.Core {
     public static class EventHub {
 
         static EventHub() {

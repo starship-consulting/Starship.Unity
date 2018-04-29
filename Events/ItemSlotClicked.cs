@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.UI;
+﻿using Starship.Unity.UI;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
     public class ItemSlotClicked {
 
         public ItemSlotClicked() {

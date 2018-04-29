@@ -1,7 +1,6 @@
-﻿using System;
-using Assets.Scripts.UI.Drag;
+﻿using Starship.Unity.UI.Drag;
 
-namespace Assets.Scripts.Events.UI {
+namespace Starship.Unity.Events.UI {
     public class ExitedDragDropZone {
         public ExitedDragDropZone() {
         }

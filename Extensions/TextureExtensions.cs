@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Assets.Scripts.Graphics;
+﻿using System.Collections.Generic;
+using Starship.Unity.Textures;
 using UnityEngine;
 
-namespace Assets.Scripts.Extensions {
+namespace Starship.Unity.Extensions {
     public static class TextureExtensions {
 
         public static IEnumerable<TextureBlock> IterateBlocks(this Texture2D texture, int width, int height) {

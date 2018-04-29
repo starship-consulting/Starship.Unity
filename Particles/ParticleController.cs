@@ -1,10 +1,10 @@
 ﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Assets.Scripts.Particles {
+namespace Starship.Unity.Particles {
     public class ParticleController : BaseComponent {
 
         public void PlayOneMoreLoop() {

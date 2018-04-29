@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Controls;
+﻿using Starship.Unity.Controls;
 using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class FollowCursor : MonoBehaviour {
 
         private void Awake() {

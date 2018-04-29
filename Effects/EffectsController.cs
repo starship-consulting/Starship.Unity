@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Effects {
+namespace Starship.Unity.Effects {
     public class EffectsController : BaseComponent {
 
         protected override void Start() {

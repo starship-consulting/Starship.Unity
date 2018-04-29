@@ -1,8 +1,8 @@
 ﻿using System;
-using Assets.Scripts.ScriptableObjects;
+using Starship.Unity.ScriptableObjects;
 using UnityEngine;
 
-namespace Assets.Scripts.EventHandling {
+namespace Starship.Unity.EventHandling {
 
     [Serializable]
     public struct EventMapping {

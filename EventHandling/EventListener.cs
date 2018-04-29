@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.EventHandling {
+namespace Starship.Unity.EventHandling {
     public class EventListener : BaseComponent {
 
         protected override void OnEnable() {

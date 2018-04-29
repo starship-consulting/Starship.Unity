@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.ScriptableObjects;
-using Assets.Scripts.Types;
-//using Sirenix.OdinInspector;
-using UnityEditor;
+using Starship.Unity.ScriptableObjects;
+using Starship.Unity.Types;
 using UnityEngine;
+//using Sirenix.OdinInspector;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
 
     [CreateAssetMenu(menuName = "ScriptableObjects/Template")]
     public class Template : BaseScriptableObject {

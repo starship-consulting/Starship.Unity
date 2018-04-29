@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Utility {
+namespace Starship.Unity.Utility {
     public class DeleteParents : BaseComponent {
         protected override void Start() {
             base.Start();

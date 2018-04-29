@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Editor.Data {
+namespace Starship.Unity.Editor.Data {
     [Serializable]
     public struct SelectedDropdownItem {
         public int Index;

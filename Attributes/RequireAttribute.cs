@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Scripts.Attributes {
+namespace Starship.Unity.Attributes {
 
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public sealed class RequireAttribute : Attribute {

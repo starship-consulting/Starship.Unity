@@ -1,8 +1,7 @@
-﻿using System;
-using System.Linq;
-using Assets.Scripts.Core;
+﻿using System.Linq;
+using Starship.Unity.Core;
 
-namespace Assets.Scripts.Editor.Editors {
+namespace Starship.Unity.Editor.Editors {
     public class SerializableEventInfoEditor : BaseCustomEditor<SerializableEventInfo> {
 
         public override void Draw(SerializableEventInfo model) {

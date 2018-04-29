@@ -1,15 +1,11 @@
-﻿using Assets.Scripts.Attributes;
-using Assets.Scripts.Core;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Events.Targetting;
-using Assets.Scripts.Extensions;
-using HighlightingSystem;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Events.Targetting;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts.Interaction {
-
-    [Require(typeof(Highlighter))]
+namespace Starship.Unity.Interaction {
+    
     public class Targettable : BaseComponent, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerClickHandler, IsComponentObserver {
         
         protected override void OnEnable() {
@@ -24,7 +20,7 @@ namespace Assets.Scripts.Interaction {
 
         protected override void OnDestroy() {
             Disable();
-            this.Remove(Highlighter);
+            //this.Remove(Highlighter);
             base.OnDestroy();
         }
 
@@ -39,7 +35,7 @@ namespace Assets.Scripts.Interaction {
                 Publish(new TargetChanged(null));
             }
 
-            Highlighter.Off();
+            //Highlighter.Off();
         }
 
         public void OnComponentStateChanged(ComponentStateChanged e) {
@@ -62,7 +58,7 @@ namespace Assets.Scripts.Interaction {
             }
 
             if (!IsSelected) {
-                EndHighlighting();
+                //EndHighlighting();
             }
 
             Publish(new TargetChanged(null));
@@ -85,16 +81,16 @@ namespace Assets.Scripts.Interaction {
             Publish(new TargetSelected(this));
 
             if (!IsHovered) {
-                BeginHighlighting();
+                //BeginHighlighting();
             }
         }
 
         public void Deselect() {
             IsSelected = false;
-            Highlighter.Off();
+            //Highlighter.Off();
 
             if (IsHovered) {
-                BeginHighlighting();
+                //BeginHighlighting();
             }
         }
         
@@ -110,19 +106,9 @@ namespace Assets.Scripts.Interaction {
                 return;
             }
 
-            BeginHighlighting();
+            //BeginHighlighting();
         }
-
-        private void BeginHighlighting() {
-            Highlighter.seeThrough = true;
-            Highlighter.occluder = false;
-            Highlighter.ConstantOnImmediate(Controller.HighlightColor);
-        }
-
-        private void EndHighlighting() {
-            Highlighter.Off();
-        }
-
+        
         public string Tooltip;
 
         public bool IsSelected;
@@ -131,8 +117,6 @@ namespace Assets.Scripts.Interaction {
 
         public bool CanSelect = true;
         
-        public Highlighter Highlighter { get; set; }
-
         private TargetController Controller { get; set; }
     }
 }

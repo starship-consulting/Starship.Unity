@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Entities;
-using Assets.Scripts.Events;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Entities;
+using Starship.Unity.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class ItemSlotView : BaseComponent, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler {
         
         public void SetItem(Item item) {

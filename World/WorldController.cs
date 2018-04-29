@@ -1,9 +1,8 @@
-﻿using System;
-using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 using UnityEngine;
 
-namespace Assets.Scripts.World {
+namespace Starship.Unity.World {
     
     public class WorldController : BaseComponent {
 

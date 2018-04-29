@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.ScriptableObjects;
+using Starship.Unity.ScriptableObjects;
 
-namespace Assets.Scripts.Events {
+namespace Starship.Unity.Events {
 
     [Serializable]
     public class UIRefreshRequested {

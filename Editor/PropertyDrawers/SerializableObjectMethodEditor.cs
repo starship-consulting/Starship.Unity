@@ -1,7 +1,4 @@
-﻿using Assets.Scripts.Core;
-using UnityEditor;
-
-namespace Assets.Scripts.Editor.PropertyDrawers {
+﻿namespace Starship.Unity.Editor.PropertyDrawers {
 
     /*[CustomPropertyDrawer(typeof(SerializableObjectMethod))]
     public class SerializableObjectMethodEditor : BasePropertyDrawer<SerializableObjectMethod> {

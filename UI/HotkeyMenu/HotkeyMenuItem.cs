@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.UI.HotkeyMenu {
+namespace Starship.Unity.UI.HotkeyMenu {
 
     [Serializable]
     public struct HotkeyMenuItem {

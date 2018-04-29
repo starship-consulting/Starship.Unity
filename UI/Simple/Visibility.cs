@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Attributes;
-using Assets.Scripts.Core;
+﻿using Starship.Unity.Attributes;
+using Starship.Unity.Core;
 using UnityEngine;
 
-namespace Assets.Scripts.UI.Simple {
+namespace Starship.Unity.UI.Simple {
     
     [ExecuteInEditMode, Require(typeof(CanvasGroup))]
     public class Visibility : BaseComponent {

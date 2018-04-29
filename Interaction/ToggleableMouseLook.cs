@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Enumerations;
+﻿using Starship.Unity.Enumerations;
 using UnityEngine;
 
-namespace Assets.Scripts.Interaction {
+namespace Starship.Unity.Interaction {
     public class ToggleableMouseLook : MonoBehaviour {
 
         private void Start() {

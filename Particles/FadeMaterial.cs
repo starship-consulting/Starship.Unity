@@ -1,9 +1,9 @@
 ﻿using System;
-using Assets.Scripts.Core;
+using Starship.Unity.Core;
+using Starship.Unity.Tweening;
 using UnityEngine;
-using UnityEngine.UI.Tweens;
 
-namespace Assets.Scripts.Particles {
+namespace Starship.Unity.Particles {
     public class FadeMaterial : BaseComponent {
 
         protected FadeMaterial() {

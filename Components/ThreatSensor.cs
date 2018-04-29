@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Linq;
-using Assets.Scripts.Actors;
-using Assets.Scripts.Animations;
-using Assets.Scripts.Combat;
-using Assets.Scripts.Core;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Events;
-using Assets.Scripts.Events.Models;
-using Assets.Scripts.Scheduling;
+using Starship.Unity.Actors;
+using Starship.Unity.Animations;
+using Starship.Unity.Combat;
+using Starship.Unity.Core;
+using Starship.Unity.Events;
+using Starship.Unity.Events.Models;
+using Starship.Unity.Scheduling;
 using UnityEngine;
 
-namespace Assets.Scripts.Components {
+namespace Starship.Unity.Components {
     public class ThreatSensor : BaseComponent, IsDamageListener {
 
         private void CombatLoop() {

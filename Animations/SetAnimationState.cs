@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Animations {
+namespace Starship.Unity.Animations {
     public class SetAnimationState : BaseComponent {
 
         protected override void Start() {

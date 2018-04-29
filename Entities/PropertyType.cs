@@ -1,8 +1,7 @@
-﻿using System;
-using Assets.Scripts.ScriptableObjects;
+﻿using Starship.Unity.ScriptableObjects;
 using UnityEngine;
 
-namespace Assets.Scripts.Entities {
+namespace Starship.Unity.Entities {
     
     [CreateAssetMenu(menuName = "ScriptableObjects/PropertyType")]
     public class PropertyType : BaseScriptableObject {

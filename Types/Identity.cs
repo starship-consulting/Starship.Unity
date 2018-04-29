@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Core;
-using Assets.Scripts.Extensions;
+﻿using Starship.Unity.Core;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.Types {
+namespace Starship.Unity.Types {
     public class Identity : BaseComponent {
         
         protected override void Awake() {

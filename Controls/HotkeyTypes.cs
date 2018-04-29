@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Controls {
+﻿namespace Starship.Unity.Controls {
     public enum HotkeyTypes {
         None = 0,
         Map,

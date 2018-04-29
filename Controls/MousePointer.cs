@@ -1,7 +1,7 @@
 ﻿using System;
-using Assets.Scripts.Entities;
+using Starship.Unity.Entities;
 
-namespace Assets.Scripts.Controls {
+namespace Starship.Unity.Controls {
     public class MousePointer : Entity {
 
         public void Move(float x, float y) {

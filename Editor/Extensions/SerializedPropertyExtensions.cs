@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Extensions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Scripts.Editor.Extensions {
+namespace Starship.Unity.Editor.Extensions {
     public static class SerializedPropertyExtensions {
         public static IEnumerable<SerializedProperty> ForEach(this SerializedProperty property) {
             for (var index = 0; index < property.arraySize; index++) {

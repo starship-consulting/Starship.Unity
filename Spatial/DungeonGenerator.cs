@@ -1,8 +1,8 @@
-﻿using Assets.Scripts.Extensions;
-using Assets.Scripts.Spatial.Regions;
-using Assets.Scripts.Spatial.TileFeatures;
+﻿using Starship.Unity.Extensions;
+using Starship.Unity.Spatial.Regions;
+using Starship.Unity.Spatial.TileFeatures;
 
-namespace Assets.Scripts.Spatial {
+namespace Starship.Unity.Spatial {
     public class DungeonGenerator {
         
         public DungeonGenerator(int size, int seed) {

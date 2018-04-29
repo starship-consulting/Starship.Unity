@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Components;
-using Assets.Scripts.Core;
-using Assets.Scripts.Definitions;
-using Assets.Scripts.Enumerations;
-using Assets.Scripts.Extensions;
+using Starship.Unity.Components;
+using Starship.Unity.Core;
+using Starship.Unity.Definitions;
+using Starship.Unity.Enumerations;
+using Starship.Unity.Extensions;
 
-namespace Assets.Scripts.UI {
+namespace Starship.Unity.UI {
     public class PropertiesPresenter : BaseComponent {
 
         protected override void Awake() {

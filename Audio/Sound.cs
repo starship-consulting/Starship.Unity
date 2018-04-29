@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Audio {
+namespace Starship.Unity.Audio {
     public class Sound : MonoBehaviour {
         
         public Collision Collision;

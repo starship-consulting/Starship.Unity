@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Commands {
+namespace Starship.Unity.Commands {
     public class FaceDirection : Command {
         
         public void East() {
